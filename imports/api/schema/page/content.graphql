@@ -1,0 +1,9 @@
+
+
+type Content {
+  teaserLinks: TeaserLinks
+}
+
+input ContentInput {
+  teaserLinks: TeaserLinksInput
+}

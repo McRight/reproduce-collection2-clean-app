@@ -1,0 +1,5 @@
+#import './page/content.graphql'
+
+type Page {
+  content: Content
+}

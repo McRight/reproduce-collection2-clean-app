@@ -1,0 +1,25 @@
+
+
+type TeaserLink {
+  name: String
+  url: String
+  isShop: Boolean
+  isSession: Boolean
+  visible: Boolean
+}
+
+type TeaserLinks {
+  list: [TeaserLink]
+}
+
+input TeaserLinkInput {
+  name: String
+  url: String
+  isShop: Boolean
+  isSession: Boolean
+  visible: Boolean
+}
+
+input TeaserLinksInput {
+  list: [TeaserLinkInput]
+}
